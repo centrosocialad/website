@@ -1,0 +1,15 @@
+:root {
+    --primary-color: #F48533;
+    --second-color: #1825ba;
+    --third-color: #fff;
+}
+
+body {
+    margin: 0;
+}
+
+header#page-header {
+    background-color: var(--second-color);
+    color: var(--third-color);
+    padding: 0.3rem 1rem;
+}
