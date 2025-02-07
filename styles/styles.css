@@ -1,15 +1,31 @@
 :root {
-    --primary-color: #F48533;
+    --primary-color: #ca6721;
     --second-color: #1825ba;
     --third-color: #fff;
+    font-size: 10px;
+    font-family: arial, sans-serif;
 }
 
-body {
+* {
     margin: 0;
+    padding: 0;
+}
+
+#top-bar {
+    display: flex;
+    justify-content: right;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 0.3rem;
+    font-size: 1.1rem;
+}
+
+#top-bar > div {
+    margin-left: 1rem;
 }
 
 header#page-header {
     background-color: var(--second-color);
     color: var(--third-color);
-    padding: 0.3rem 1rem;
+    padding: 2rem 1rem;
 }
